@@ -24,6 +24,7 @@ body {
   /* propery: value; */
   /* values can have units or be unitless */
   margin: 0;
+  background-color: lightyellow;
 
   /*  colors
       HEX: 0,1,2,3,4,5,6,a,b,d,e,f
@@ -35,27 +36,20 @@ body {
 
       KEYWORD: red, green, blue,
   */
-  background-color: #111111;
   /* typography */
   font-family: Arial, Helvetica, sans-serif;
-  color: #eeeeee;
+  color:darkturquoise;
 }
 /*
   MAIN ELEMENTS
 */
 /* multiple selectors are divided by comma */
-header, main, footer, aside {
-  padding: 50px;
 
-  border-style: solid;
-  border-width: 5px;
-}
 
 /* media query */
 /* that only applies if the screen is smaller than 800px */
 @media (max-width: 800px) {
   header, main, footer, aside {
-    padding: 10px;
   }
 }
 
@@ -63,52 +57,114 @@ header, main, footer, aside {
 header {
   /* border: solid 10px #ff0000;
   border: solid 10px #f00; */
-  border-color: red;
 }
 
+
 main {
-  border-color:green;
+  color: darkturquoise;
+  background-color:lightyellow;
+  margin: 20px;
 }
 
 footer {
-  border-color: blue;
+background-color: black;
+padding: 20px;
+line-height: 30px;
 }
 
 aside {
   border-color:pink;
 }
 /* test of specificity */
-ul {
-  border: 3px solid pink;
-}
 
 /*
   NAVIGATION
 */
 nav {
+
 }
 /* when the selectors are listed without the comma
 we are selecting the children of the previous selector  */
-nav ul {
-  border: 3px solid yellow;
-}
+nav
+
+
+
 
 /*
   TYPOGRAPHIC ELEMENTS
 */
-h1 {
 
-}
 h2 {
-
+  font-family: 'Courier New', Courier, monospace;
+  text-align: center;
 }
+
+h1 {
+  color: darkturquoise;
+  font-size: 40px;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: 5000;
+  text-align: center;
+  }
+
+
+h3 {
+color: darkturquoise;
+font-weight: 300;
+font-size: 20px;
+}
+
+#subtitle {
+  color:darkturquoise;
+  text-align: center;
+  font-size: 20px;
+  }
+
+
+#recipes {
+font-weight: 400;
+font-size: 30px;
+font-family: 'Courier New', Courier, monospace;
+text-align: center;
+}
+
 p {
+font-size: 15px;
+color: darkturquoise;
+line-height: 0%;
+margin-bottom: 2%;
+}
 
+dl {
+  color:darkturquoise;
 }
+
+ul.ingredients {
+  text-align: left;
+  list-style-type: circle;
+}
+
+
 /* link */
-a {
-  color: #ff0000;
+
+ul {
+  list-style: none;
+  text-align: center;
 }
+
+a {
+  text-decoration: none;
+  color: white;
+  line-height: 30px;
+  font-size: 16px;
+}
+
+.button {
+background: darkturquoise;
+padding: 5px;
+border-radius: 5px;
+}
+
 /* image */
 img {
   /* responsive image trick */

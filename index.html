@@ -6,26 +6,22 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Smoothie Site</title>
   <meta name="description" content="The smoothest smooth-ies by SPD.">
-  <link rel="stylesheet" href="style.css">
+  <!-- <link rel="stylesheet" href="style.css"> -->
   <link rel="stylesheet" href="layout.css">
 </head>
 <body>
 
   <header>
     <!-- logo, website name, slogan -->
-    <h2>Smooth-ie Site</h2>
-    <p>The smoothest smooth-ies.</p>
+    <h1 id="titlecover">Smooth-ie Site</h1>
+    <p id ="subtitle">The smoothest smooth-ies.</p>
     <!-- navigation -->
     <nav>
       <!-- ul>li*2>a -->
       <ul>
       <!-- unordered or ordered list can only contain <li> a adirect child -->
-        <li><a href="#">Recipies</a></li>
-        <li><a href="#">About this page</a></li>
-        <li><a href="#">Recipies</a></li>
-        <li><a href="#">About this page</a></li>
-        <li><a href="#">Recipies</a></li>
-        <li><a href="#">About this page</a></li>
+        <li><a href="#" class="button">RECIPES</a></li>
+        <li><a href="#"class="button">ABOUT THIS PAGE</a></li>
       </ul>
     </nav>
   </header>
@@ -35,10 +31,12 @@
     <!-- main content of this page (f.ex. blog post, blog list,...)
          https://developer.mozilla.org/en-US/docs/Web/HTML/Element/main
     -->
-    <h1>Smoothies</h1>
+
+    <h2 id="title">The smoothest smooth-ies</h2>
+
 
     <section id="recipies">
-      <h2>Recipies</h2>
+      <h2 id="recipes">Recipies</h2>
       <article>
         <!-- recipe -->
         <h3>2minute breakfast smoothie</h3>
@@ -58,7 +56,7 @@
         </dl>
 
         <h4>Ingredients</h4>
-        <ul>
+        <ul class="ingredients">
           <li>1 banana</li>
           <li>1 tbsp porridge oats</li>
           <li>80g soft fruit (whatever you have – strawberries, blueberries, and mango all work well)</li>
@@ -95,7 +93,7 @@
         </dl>
 
         <h4>Ingredients</h4>
-        <ul>
+        <ul class="ingredients">
           <li>small ripe banana</li>
           <li>sbout 140g blackberries, blueberries, raspberries or strawberries (or use a mix), plus extra to serve</li>
           <li>apple juice or mineral water, optional</li>
@@ -111,18 +109,18 @@
         </ol>
       </article>
     </section>
+  </main>
 
-    <section id="about">
-      <h2>About this page</h2>
+  <footer>
+    <section class="about">
+      <h2 id="about">About this page</h2>
       <!-- p*3>lorem -->
       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque aliquid unde aut aliquam deserunt praesentium excepturi repudiandae, magni eveniet, pariatur distinctio incidunt fuga tenetur dolorem minus velit ullam beatae dolor.</p>
       <p>Minima eum illum non repellat eligendi, hic recusandae blanditiis velit dolor ad illo numquam nihil, aliquid quasi corrupti exercitationem mollitia iste. Vel illum dolorem dignissimos enim neque vitae dicta sapiente?</p>
       <p>Perspiciatis voluptas nisi, amet exercitationem commodi ipsam eius magni aperiam possimus quis error illo cupiditate molestias necessitatibus sunt debitis natus architecto dolores harum. Quos, temporibus cum minus nulla aut quis!</p>
+      <p>Perspiciatis voluptas nisi, amet exercitationem commodi ipsam eius magni aperiam possimus quis error illo cupiditate molestias necessitatibus sunt debitis natus architecto dolores harum. Quos, temporibus cum minus nulla aut quis!</p>
+
     </section>
-
-  </main>
-
-  <footer>
 
   </footer>
 
