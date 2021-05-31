@@ -34,6 +34,13 @@ html {
     }
 }
 
+/* table * {
+  border: 5px solid red;
+} */
+
+/* table td {
+  border: 5px solid pink;
+} */
 
   header {
     height: 550px;
@@ -59,6 +66,8 @@ html {
 aside {
     border-color:pink;
 }
+
+
 
 /* *
   TYPOGRAPHIC ELEMENTS
